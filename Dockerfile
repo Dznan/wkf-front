@@ -7,6 +7,6 @@ ADD ./dist /usr/share/nginx/html
 
 ADD ./mcs.js /usr/share/nginx/public/js/
 
-RUN chmod -R 755 /usr/share/nginx/html
+RUN chmod -R 755 /usr/share/nginx/
 
 ADD ./nginx /etc/nginx
